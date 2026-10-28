@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Платье миди изумрудное - ВИТРИНА</title>
+<style>
+  :root{--ink:#1d2433;--muted:#6b7380;--line:#e7e9ee;--accent:#0f766e;--buy:#111827}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.5}
+  .top{border-bottom:1px solid var(--line)}
+  .top-in{max-width:1080px;margin:0 auto;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+  .brand{font-weight:800;letter-spacing:.14em;font-size:19px}
+  nav a{color:var(--muted);text-decoration:none;font-size:14px;margin-left:20px}
+  nav a:hover{color:var(--ink)}
+  .wrap{max-width:1080px;margin:0 auto;padding:22px 20px 60px}
+  .crumbs{font-size:13px;color:var(--muted);margin:4px 0 20px}
+  .crumbs a{color:var(--muted);text-decoration:none}
+  .product{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,420px);gap:40px;align-items:start}
+  .gallery{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#f6f7f9}
+  .gallery img{width:100%;display:block;aspect-ratio:3/4;object-fit:cover}
+  h1{font-size:26px;margin:0 0 6px}
+  .art{font-size:13px;color:var(--muted);margin:0 0 16px}
+  .price{font-size:26px;font-weight:800;margin:0 0 20px}
+  .label{font-size:13px;color:var(--muted);margin:0 0 8px}
+  .sizes{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 22px}
+  .sizes button{min-width:46px;height:42px;border:1px solid var(--line);background:#fff;border-radius:9px;font:inherit;cursor:pointer}
+  .sizes button.on{border-color:var(--ink);font-weight:700}
+  .buy{display:block;width:100%;padding:15px;border:0;border-radius:11px;background:var(--buy);color:#fff;font:inherit;font-weight:700;font-size:16px;cursor:pointer;margin-bottom:12px}
+  /* Кнопка примерки магазина (оформляет сам магазин) */
+  .tryon{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:15px;border:2px solid var(--accent);border-radius:11px;background:#f0fdfa;color:var(--accent);font:inherit;font-weight:700;font-size:16px;cursor:pointer}
+  .tryon:hover{background:#ccfbf1}
+  .tryon svg{width:22px;height:22px}
+  .note{font-size:12.5px;color:var(--muted);margin-top:14px}
+  .desc{margin-top:26px;border-top:1px solid var(--line);padding-top:20px;color:#333;max-width:620px}
+  @media(max-width:760px){.product{grid-template-columns:1fr;gap:22px}.top nav{display:none}}
+</style>
+</head>
+<body>
+  <header class="top"><div class="top-in"><div class="brand">ВИТРИНА</div>
+    <nav><a href="#">Новинки</a><a href="#">Платья</a><a href="#">Верх</a><a href="#">Обувь</a><a href="#">Контакты</a></nav>
+  </div></header>
+
+  <main class="wrap">
+    <div class="crumbs"><a href="#">Каталог</a> / <a href="#">Платья</a> / Платье миди изумрудное</div>
+    <div class="product">
+      <div class="gallery">
+        <img src="https://obrasko.com/api/tryon/public/shops/moda-e2e-1410/products/02fceba5-0644-4401-9598-a8863f93fc91/image?v=5e9cf9f8-856a-4582-8001-9b7014ffea7d" alt="Платье миди изумрудное">
+      </div>
+      <div class="info">
+        <h1>Платье миди изумрудное</h1>
+        <p class="art">Артикул: E2E-DRESS-01</p>
+        <p class="price">6 990 ₽</p>
+        <p class="label">Размер</p>
+        <div class="sizes"><button>XS</button><button class="on">S</button><button>M</button><button>L</button><button>XL</button></div>
+
+        <button class="buy" type="button">В корзину</button>
+
+        <!-- ↓↓↓ Код онлайн-примерки OBRASKO (одна кнопка для этого товара) ↓↓↓ -->
+        <button class="tryon" type="button" data-tryon-sku="E2E-DRESS-01">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m8 3-5 3 3 5 2-1v11h8V10l2 1 3-5-5-3c-1 3-7 3-8 0Z"/></svg>
+          Примерить онлайн
+        </button>
+        <!-- ↑↑↑ Код онлайн-примерки OBRASKO ↑↑↑ -->
+
+        <p class="note">Нажмите «Примерить онлайн» - откроется окно, загрузите своё фото и увидите вещь на себе.</p>
+
+        <div class="desc">
+          <p>Платье миди из струящейся ткани изумрудного цвета, с поясом на талии. Подойдёт для офиса и вечера. Состав: вискоза 95%, эластан 5%.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Подключается один раз на сайте (OBRASKO) -->
+  <script src="https://obrasko.com/widget.js" data-shop="moda-e2e-1410" defer></script>
+</body>
+</html>
